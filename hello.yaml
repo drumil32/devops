@@ -1,0 +1,16 @@
+#key value pair
+"apple": "I am a red fruit"
+1: "this is one number known as one"
+--- #by providing this we are seperating two documents from each other
+#list
+- apple
+- mango
+- banana
+---
+cities:
+  - new Delhi
+  - dhoraji
+---
+cities: [new delhi, dhoraji]
+---
+{ apple: "red fruit", 1:"this is one number known as one" }

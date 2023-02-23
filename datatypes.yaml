@@ -1,0 +1,46 @@
+# String
+name : drumil akhenia
+city : "dhoraji"
+father name : 'dilipbhai akhenia'
+# here all right side part(values) have data type as string
+
+# what if you want to write multiple line string
+bio : |
+my name is Drumil Akhenia.
+I am prefinal year computer eng. student at DDU.
+what about you?
+
+# what if you want to write multiple line string but at the same time you want that when it will be passed at that time it should be in single line
+message : >
+this will
+be in single line
+yes bro you heard it right!
+
+number : 78 #integer
+marks : 98.79 #float
+pass : No #boolean
+# No => n , N , false, False,FALSE
+# Yes => y , Y, YES , True, TRUE
+
+# YAML can automatically dectect type but if you want to tell it explicitly then use this
+
+# specify the type
+
+zero : !!int 0
+positiveNumber : !!int 45
+negativeNumber : !!int -67
+binaryNumber : !!int 0b1010101
+octalNumber : !!int 0654
+hexaNumber : !!int 0x56
+commaValue : !!int +450_450 # 450,450
+
+#floating point numbers
+
+
+#boolean values
+booleanValue : !!bool Yes
+newMessage : !!str this is new message
+
+# null
+surname : !!null Null # Null==> NULL or ~
+~ : this is a values whose key is null
